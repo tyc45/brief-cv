@@ -24,43 +24,99 @@
 
 <body>
   <header>
-    <h1><a href="mypic">Mon CV</a></h1>
+    <h2><a href="#mypic">Mon CV</a></h2>
     <nav>
       <ul>
-        <li><a href="">À propos</a></li>
-        <li><a href="">Compétences</a></li>
-        <li><a href="">Expérience</a></li>
-        <li><a href="">Formation</a></li>
-        <li><a href="">Hobbies</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="about">À propos</a></li>
+        <li><a href="skills">Compétences</a></li>
+        <li><a href="exp">Expérience</a></li>
+        <li><a href="training">Formation</a></li>
+        <li><a href="hobbies">Hobbies</a></li>
+        <li><a href="joinme">Contact</a></li>
       </ul>
     </nav>
   </header>
+  <main>
+    <article>
+      <section id="mypic">
+        <figure>
+          <img src="./img/1517889891647.jpg">
+        </figure>
+      </section>
 
-  <article>
-    <section id="mypic">
-      <figure>
-        <img src="">
-      </figure>
-    </section>
+      <section>
+        <h2>Jordan Tycyznski</h2>
+        <h1>Développeur Web Front-End Junior</h1>
+      </section>
 
-    <section id=""></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-  </article>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+      <section id="about">
+        <h2>À propos</h2>
+        <p>Suspendisse fermentum, felis et pharetra finibus, lacus risus ullamcorper mi, vel posuere diam neque id sapien. In eleifend, justo non hendrerit vestibulum, erat leo maximus tellus,
+          vel semper nisl sapien eu ex. Vivamus elit odio, commodo at turpis at, rutrum mollis sem.
+          Vivamus sed convallis nisi, a dapibus felis. Nunc eget arcu quam. Nullam blandit quis risus a molestie. Cras nec egestas eros, a feugiat purus.
+          Sed commodo ultrices mauris ullamcorper volutpat. Nam rhoncus, lectus a porttitor venenatis, elit nunc lobortis odio, et rutrum sapien magna at nisi.
+          In mattis orci odio, ut fermentum sapien maximus vitae. Morbi convallis, libero non pellentesque vestibulum, nisl leo bibendum odio, ut blandit libero urna ac dui. </p>
+        </section>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+        <section id="skills">
+          <h2>Compétences</h2>
+          <ul>
+            <li>HTML 5: Junior</li>
+            <li>CSS: Junior</li>
+            <li>Javascript: Junior</li>
+            <li>MySQL: Intermédiaire</li>
+            <li>Java: Intermédiaire</li>
+            <li>Python: Débutant</li>
+            <li>PHP: Débutant</li>
+            <li>Oracle: Junior</li>
+          </ul>
+        </section>
 
-</html>
+        <section id="exp">
+          <h2>Expérience Professionnelle</h2>
+          <ul>
+            <li>2020: Agent de propreté</li>
+            <li>2019: Ouvrier horticole</li>
+            <li>2017: Développeur Java</li>
+            <li>2011|2015: Assistant d'éducation</li>
+          </ul>
+        </section>
+
+        <section id="training">
+          <h2>Formation</h2>
+          <ul>
+            <li>2021: Formation Développeur web</li>
+            <li>2016: Formation Concepteur Développeur Informatique</li>
+            <li>2015: License L1 Mathématique Appliquées aux Sciences Humaines et Sociales</li>
+            <li>2009: License L1 Langues Litérratures et Civilisations Etrangères: Japonais</li>
+            <li>2008: Baccalauréat STI Electronique</li>
+          </ul>
+        </section>
+
+        <section id="joinme">
+          <h2>Contact</h2>
+          <a href="tel:+33839656565">08 36 65 65 65</a>
+          <form action="#" method="post">
+            <fieldset>
+              <input type="text" placeholder="Nom" id="nom" name="nom_util">
+              <input type="email" name="mail_util" id="mail" placeholder="Email">
+              <input type="text" placeholder="Votre message" id="message" name="message_util">
+            </fieldset>
+            <input type="submit" value="Envoyer">
+          </form>
+          </section>
+        </article>
+      </main>
+      <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async></script>
+    </body>
+
+    </html>
