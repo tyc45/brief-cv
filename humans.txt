@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jordan Tyczynski - Junior Web Developer - https://twitter.com/JordanTyczynski
 
 # THANKS
 
-    <name>
+    Simplon.co
+    Programme Regionnal de Formation Hauts-de-France
 
 # TECHNOLOGY COLOPHON
 
