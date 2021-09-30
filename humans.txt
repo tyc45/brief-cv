@@ -1,9 +1,9 @@
-# humanstxt.org/
 # The humans responsible & technology colophon
 
 # TEAM
 
-    Jordan Tyczynski - Junior Web Developer - https://twitter.com/JordanTyczynski
+    Developer: Jordan Tyczynski
+    Twitter @JordanTyczynski
 
 # THANKS
 
